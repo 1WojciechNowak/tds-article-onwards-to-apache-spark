@@ -8,16 +8,12 @@ object Config {
     StructField("age", IntegerType, nullable = false),
     StructField("sex", IntegerType, nullable = false),
     StructField("cp", IntegerType, nullable = false),
-    StructField("trtbps", IntegerType, nullable = false),
+    StructField("rbp", IntegerType, nullable = false),
     StructField("chol", IntegerType, nullable = false),
-    StructField("fbs", IntegerType, nullable = false),
+    StructField("fbste", IntegerType, nullable = false),
     StructField("restecg", IntegerType, nullable = false),
-    StructField("thalachh", IntegerType, nullable = false),
+    StructField("mhr", IntegerType, nullable = false),
     StructField("exng", IntegerType, nullable = false),
-    StructField("oldpeak", DoubleType, nullable = false),
-    StructField("slp", IntegerType, nullable = false),
-    StructField("caa", IntegerType, nullable = false),
-    StructField("thall", IntegerType, nullable = false),
     StructField("output", IntegerType, nullable = false)
   ))
 }
